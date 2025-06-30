@@ -4,6 +4,7 @@ import React, { useLayoutEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Button from '../ui/Button';
+import Image from 'next/image';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -108,10 +109,12 @@ const Hero = () => {
   return (
     <section ref={container} className="relative flex h-screen w-full items-center justify-center">
       <div className="absolute inset-0 -z-10">
-        <img
+        <Image
           src="/c009c7e9-88dc-4fe4-9594-180233fbb533.png"
           alt="Modern living room"
-          className="h-full w-full object-cover"
+          fill
+          className="object-cover"
+          priority
         />
         <div className="absolute inset-0 bg-black/50" />
       </div>

@@ -42,7 +42,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: typeof testimonials[0] 
 
     return(
         <div ref={cardRef} className="rounded-lg bg-brand-background p-8">
-            <p className="text-brand-text-medium text-lg">"{testimonial.quote}"</p>
+            <p className="text-brand-text-medium text-lg">&quot;{testimonial.quote}&quot;</p>
             <div className="mt-6 flex items-center gap-4">
                 <div className="h-14 w-14 overflow-hidden rounded-full">
                     <Image

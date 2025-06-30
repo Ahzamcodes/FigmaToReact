@@ -32,7 +32,7 @@ const OurStory = () => {
         <div className="order-2 md:order-1">
           <h2 className="text-5xl font-semibold">Our Story</h2>
           <p className="mt-4 text-lg text-brand-text-medium">
-            Founded in 2010, Aura started with a simple mission: to blend timeless design with modern comfort. Our journey began in a small workshop, driven by a passion for craftsmanship and a desire to create furniture that wasn't just functional, but also beautiful and inspiring. Over the years, we've grown into a brand synonymous with quality and elegance, yet our core values remain unchanged. We believe that a well-designed home can elevate everyday living, and we are committed to bringing that vision to life for our customers.
+            Founded in 2010, Aura started with a simple mission: to blend timeless design with modern comfort. Our journey began in a small workshop, driven by a passion for craftsmanship and a desire to create furniture that wasn&apos;t just functional, but also beautiful and inspiring. Over the years, we&apos;ve grown into a brand synonymous with quality and elegance, yet our core values remain unchanged. We believe that a well-designed home can elevate everyday living, and we are committed to bringing that vision to life for our customers.
           </p>
         </div>
         <div className="order-1 h-96 w-full overflow-hidden rounded-lg md:order-2">
